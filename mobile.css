@@ -1,0 +1,57 @@
+#main-header #navbar #nav-content {
+  border: none;
+  box-shadow: none;
+}
+
+#main-header #navbar #nav-content ul {
+  display: grid;
+  grid-template-columns: repeat(2fr, 2);
+}
+
+#main-header #navbar {
+  flex-direction: column;
+}
+
+.logo {
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+.btndiv {
+  display: none;
+}
+
+#main-header {
+  height: 110vh;
+}
+
+#main-header #header-content {
+  margin-top: 5rem;
+}
+
+#how {
+  height: 120vh;
+}
+
+.start {
+  font-size: 2rem;
+}
+
+
+#how .how-content {
+  margin-left: -1.2rem;
+  margin-top: 8rem;
+}
+
+#how .how-content h1 {
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+
+#how .how-content .step-2 {
+  font-size: 1rem;
+}
+
+#how .how-content a {
+  margin-top: 8rem;;
+}
