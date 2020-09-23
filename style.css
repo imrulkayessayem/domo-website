@@ -790,6 +790,7 @@ a {
     visibility: visible;
     color: #fff;
     height: 50vh;
+    text-align: center;
   }
 
   #header-content {
